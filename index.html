@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>EBRAINS Atlas Viewer</title>
+    <link rel="icon" href="logo.png" type="image/png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #000;
+      }
+
+      .frame-wrapper {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: #000;
+      }
+
+      iframe {
+        border: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <script>window.scrollTo(0, 0);</script>
+    <div class="frame-wrapper">
+      <iframe
+        src="/ebrains#/a:juelich:iav:atlas:v1.0.0:1/t:minds:core:referencespace:v1.0.0:dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2/p:minds:core:parcellationatlas:v1.0.0:94c1125b-b87e-45e4-901c-00daee7f2579-310/@:0.0.0.-W000.._eCwg.2-FUe3._-s_W.2_evlu..7LIy..0.0.0..1LSm/vs:v2-ff011b0b"
+        allow="fullscreen"
+        allowfullscreen
+        title="EBRAINS Atlas Viewer"
+      ></iframe>
+    </div>
+  </body>
+</html>
